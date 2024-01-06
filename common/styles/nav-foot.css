@@ -13,8 +13,8 @@
 }
 
 .logo img{
-    width: 12.5rem;
-    height: 4.19375rem;
+    width: 10.5rem;
+    height: auto;
 }
 
 .nav-links{
@@ -41,7 +41,7 @@
 .nav-links a{
     color: var(--Putih);
     font-family: var(--body-font-family);
-    font-size: 1.5rem;
+    font-size: 1.25rem;
     font-style: normal;
     font-weight: var(--font-weight-normal);
     line-height: normal;
@@ -50,7 +50,7 @@
 .special-index a{
     color: var(--Biru-Tua);
     font-family: var(--body-font-family);
-    font-size: 1.5rem;
+    font-size: 1.25rem;
     font-style: normal;
     font-weight: var(--font-weight-bold);
     line-height: normal;
@@ -101,7 +101,7 @@
     display: flex;
     padding-left: 1.5rem;
     /* min-width: 42.3125rem; */
-    width: 42.3125vw;
+    width: 32.3125vw;
     height: 2.875rem;
     
     border-radius: 3.125rem;
@@ -109,7 +109,7 @@
     background: var(--Putih);
     
     font-family: var(--body-font-family);
-    font-size: 1.5rem;
+    font-size: 1.25rem;
     font-style: normal;
     font-weight: var(--font-weight-normal);
     line-height: normal;
@@ -156,7 +156,7 @@ footer{
 .footer-lines{
     color: var(--Putih);
     font-family: var(--lato-family);
-    font-size: 1.375rem;
+    font-size: 1rem;
     font-style: normal;
     font-weight: 500;
     line-height: 1.125rem;
