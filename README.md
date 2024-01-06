@@ -10,6 +10,15 @@ Anggota:
 5. 2540134741 - MATHEW IMANUEL SUPRIYANTO SIN
 
 ## Detail
+### Branch Details
+main -> main branch, everything here is already fixed
+common -> consists of common pages regardless of role
+admin -> consists of pages exclusive to admin
+dokter -> consists of pages exclusive to dokter
+suster -> consists of pages exclusive to suster
+
+
+### Website Details
 MediLog memiliki 3 roles yang berbeda yaitu Admin, Dokter, and Suster.
 
 ### Admin
