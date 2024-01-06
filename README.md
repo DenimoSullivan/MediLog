@@ -12,9 +12,13 @@ Anggota:
 ## Detail
 ### Branch Details
 main -> main branch, everything here is already fixed
+
 common -> consists of common pages regardless of role
+
 admin -> consists of pages exclusive to admin
+
 dokter -> consists of pages exclusive to dokter
+
 suster -> consists of pages exclusive to suster
 
 
