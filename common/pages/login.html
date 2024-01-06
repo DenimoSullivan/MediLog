@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter&family=Lato:wght@100;300;400;700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="../styles/normalize.css">
+    <link rel="stylesheet" href="../styles/login.css">
+    <script src="../scripts/login.js" defer></script>
+</head>
+<body id="top">
+    <section id="login">
+        <div class="image">
+            <div class="doctor">
+                <div class="doctor-img">
+                    <img src="../assets/doctor-image.png" alt="">
+                </div>
+                <svg xmlns="http://www.w3.org/2000/svg" width="73" height="70" viewBox="0 0 73 70" fill="none">
+                    <path d="M36.1515 0L42.2523 24.1435L64.9323 13.8601L49.8599 33.6831L72.0406 45.0034L47.1448 45.5788L52.1237 69.9784L36.1515 50.8729L20.1794 69.9784L25.1582 45.5788L0.262432 45.0034L22.4431 33.6831L7.3707 13.8601L30.0507 24.1435L36.1515 0Z" fill="#333333"/>
+                </svg>
+                <svg xmlns="http://www.w3.org/2000/svg" width="103" height="111" viewBox="0 0 103 111" fill="none">
+                    <path d="M50.4661 1.34953C50.6581 -0.395808 53.005 -0.395808 53.1971 1.34953L54.807 15.9914C56.8858 34.8979 70.6991 49.8043 88.219 52.0476L101.787 53.7849C103.405 53.9922 103.405 56.5248 101.787 56.7321L88.219 58.4694C70.6991 60.7127 56.8858 75.6191 54.807 94.5255L53.1971 109.167C53.005 110.913 50.6581 110.913 50.4661 109.167L48.8561 94.5255C46.7773 75.6191 32.9641 60.7127 15.444 58.4694L1.87586 56.7321C0.258504 56.5248 0.258504 53.9922 1.87586 53.7849L15.444 52.0476C32.9641 49.8043 46.7773 34.8979 48.8561 15.9914L50.4661 1.34953Z" fill="#333333"/>
+                </svg>
+            </div>
+        </div>
+        <div class="content">
+            <div class="container">
+                <img src="../assets/medilog-logo-black.png" alt="">
+                <form id="login-form" action="" onsubmit="redirect(event, 'index.html')">
+                    <h1>Are you a nurse and don't have an account yet? <a href="">Sign Up here!</a></h1>
+                    <div class="text-box">
+                        <div class="input-icon">
+                            <img src="../assets/avatar.png" alt="">
+                        </div>
+                        <input class="text-input" type="text" name="username" id="username" placeholder="Username">
+                    </div>
+                    <div class="text-box">
+                        <div class="input-icon">
+                            <img src="../assets/lock.png" alt="">
+                        </div>
+                        <input class="text-input" type="password" name="password" id="password" placeholder="Password">
+                    </div>
+                    <label id="radio-label" for="radio-choice">Role<span>*</span></label>
+                    <div class="radio-container" id="radio-choice">
+                        <label class="radio-child" for="admin">
+                            <input type="radio" name="role" id="admin" value="admin">
+                            Admin
+                        </label>
+                        <label class="radio-child" for="doctor">
+                            <input type="radio" name="role" id="doctor" value="doctor">
+                            Doctor
+                        </label>
+                        <label class="radio-child" for="nurse">
+                            <input type="radio" name="role" id="nurse" value="nurse">
+                            Nurse
+                        </label>
+                    </div>
+                    <a href="">Forgot password?</a>
+                    <label id="remember-me" for="agree">
+                        <input type="checkbox" name="remember" id="agree">
+                        Remember me
+                    </label>
+                    <button type="submit" class="generic-button">Log In</button>
+                </form>
+            </div>
+        </div>
+    </section>
+</body>
+</html>

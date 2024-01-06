@@ -1,0 +1,239 @@
+html{
+    height: 64rem;
+}
+
+#login{
+    display: flex;
+    height: 100%;
+}
+
+.image{
+    flex: 3 0 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: var(--Biru-Abu);
+}
+
+.doctor{
+    position: relative;
+}
+
+.doctor svg{
+    position: absolute;
+}
+
+.doctor svg:first-of-type{
+    top:0;
+    left:2.21rem;
+}
+
+.doctor svg:last-of-type{
+    bottom: 0;
+    right: 0;
+}
+
+.doctor-img{
+    overflow: hidden;
+    width: 24.24994rem;
+    height: 31.84238rem;
+    border-radius: 50rem;
+    border: 1px solid var(--Putih);
+}
+
+.doctor-img img{
+    position: relative;
+    top: 5rem;
+    width: 25.5625rem;
+    height: 28.9615rem;
+}
+
+.content{
+    flex: 5 0 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container{
+    height: fit-content;
+    width: 31.25rem;
+}
+
+.container img{
+    text-align: center;
+    object-fit: contain;
+    width: 31.25rem;
+    height: 10.3635rem;
+}
+
+#login-form{
+    width: 100%;
+    padding: 0rem 2.56rem;
+}
+
+#login-form h1{
+    margin-top: 1.07rem;
+    color: var(--Abu);
+    font-family: var(--body-font-family);
+    font-size: 1.25rem;
+    font-weight: var(--font-weight-normal);
+}
+
+#login-form a{
+    color: var(--Biru-Link);
+}
+
+#login-form > a{
+    font-size: 1rem;
+}
+
+.text-box{
+    width: 100%;
+    height: 3.8125rem;
+    margin-bottom: 1.56rem;
+    position: relative;
+}
+
+.text-box:first-of-type{
+    margin-top: 1.06rem;
+}
+
+.input-icon{
+    position: absolute;
+    width: fit-content;
+    inset: 0.94rem 0 0.91rem 1rem;
+    padding-right: 0.82rem;
+    display: flex;
+    align-items: center;
+}
+
+.input-icon::after{
+    content: '';
+    position: absolute;
+    display: block;
+    left: 100%;
+    width: 0.1875rem;
+    height: 2.8125rem;
+    background: #91ACCB;
+    border-radius: 0.625rem;
+}
+
+.input-icon img{
+    object-fit: contain;
+    width: 1.8125rem;
+    height: 1.97863rem;
+}
+
+.text-box input{
+    font-size: 1.5rem;
+    font-weight: var(--font-weight-normal);
+    padding-left: 4.82rem;
+}
+.text-box input::placeholder{
+    color: var(--Biru-Abu);
+}
+
+.text-input{
+    border-radius: 0.25rem;
+    border: transparent;
+    width: 100%;
+    height: 100%;
+    background: var(--Sky-Blue);
+}
+
+#radio-label{
+    font-size: 1.5rem;
+}
+
+#login-form span{
+    color: var(--Red);
+}
+
+.radio-container{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 1.56rem;
+}
+
+.radio-child{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    color: var(--Biru-Abu);
+    font-size: 1.5rem;
+}
+
+.radio-child:hover{
+    cursor: pointer;
+    color: var(--Black, #000);
+}
+
+.radio-child input{
+    width: 1.5625rem;
+    height: 1.5625rem;
+}
+
+.radio-child input{
+    appearance: none;
+    background-color: #FFF;
+
+    font: inherit;
+    color: currentColor;
+    width: 1.5625rem;
+    height: 1.5625rem;
+    border: 0.15rem solid currentColor;
+    border-radius: 50%;
+
+    display: grid;
+    place-content: center;
+}
+
+.radio-child input::before{
+    content: "";
+    width: 0.8125rem;
+    height: 0.8125rem;
+    border-radius: 50%;
+    transform: scale(0);
+    box-shadow: inset 1em 1em var(--Black);
+}
+
+.radio-child input:checked::before{
+    transform: scale(1);
+}
+
+.radio-child input:checked{
+    border-color: var(--Black);
+}
+
+#remember-me{
+    margin-top: 3.75rem;
+    color: var(--Abu);
+    font-family: var(--body-font-family);
+    font-size: 1rem;
+    font-weight: var(--font-weight-normal);
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+#remember-me input{
+    width: 1.89475rem;
+    height: 1.89475rem;
+    border-radius: 0.25rem;
+    border: 1px solid #3D3D3D;
+    background: var(--Putih, #FCFBF9);
+}
+
+.generic-button{
+    display: block;
+    margin: 1.56rem auto 0rem;
+    padding: 0.375rem 4.0625rem;
+    border-radius: 0.3125rem;
+    color: var(--Putih);
+    font-family: var(--body-font-family);
+    border: transparent;
+    cursor: pointer;
+}
+
+
