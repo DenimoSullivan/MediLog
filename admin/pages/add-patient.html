@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Home</title>
+    <title>Add Patient</title>
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -11,7 +11,7 @@
 
     <link rel="stylesheet" href="../../common/styles/normalize.css">
     <link rel="stylesheet" href="../../common/styles/nav-foot.css">
-    <link rel="stylesheet" href="../styles/home.css">
+    <link rel="stylesheet" href="../styles/add-patient.css">
 </head>
 <body>
     <nav class="navbar">
@@ -39,57 +39,51 @@
     </nav>
 
     <section>
-        <h1 class="title">Hello, Admin!</h1>
-        <div class="content-wrapper">
-            <div class="content">
-                <div class="content-title">
-                    <h1>Doctor</h1>
-                    <a href="./add-doctor.html" class="icon-wrapper"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
-                        <path d="M10.5 20C10.5 20.3978 10.658 20.7794 10.9393 21.0607C11.2206 21.342 11.6022 21.5 12 21.5C12.3978 21.5 12.7794 21.342 13.0607 21.0607C13.342 20.7794 13.5 20.3978 13.5 20V13.5H20C20.3978 13.5 20.7794 13.342 21.0607 13.0607C21.342 12.7794 21.5 12.3978 21.5 12C21.5 11.6022 21.342 11.2206 21.0607 10.9393C20.7794 10.658 20.3978 10.5 20 10.5H13.5V4C13.5 3.60218 13.342 3.22064 13.0607 2.93934C12.7794 2.65804 12.3978 2.5 12 2.5C11.6022 2.5 11.2206 2.65804 10.9393 2.93934C10.658 3.22064 10.5 3.60218 10.5 4V10.5H4C3.60218 10.5 3.22064 10.658 2.93934 10.9393C2.65804 11.2206 2.5 11.6022 2.5 12C2.5 12.3978 2.65804 12.7794 2.93934 13.0607C3.22064 13.342 3.60218 13.5 4 13.5H10.5V20Z" fill="#FCFBF9"/>
-                        </svg>
-                    </a>
-                    <a href="" class="icon-wrapper">
-                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
-                            <path d="M9 6H20M9 12H20M9 18H20M5 6V6.01M5 12V12.01M5 18V18.01" stroke="#FCFBF9" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-                        </svg>
-                    </a>
-                </div>
-                <div class="content-list">
-                    <div class="list">
-                        <p>Total</p>
-                        <p>Recently added</p>
+        <h1 class="title">Add New Patient</h1>
+        <form action="">
+            <div class="input">
+                <label for="">Full Name<span>*</span></label>
+                <input type="text" placeholder="Enter patient's full name">
+            </div>
+            <div class="input radio">
+                <label for="">Gender<span>*</span></label>
+                <div class="radio-choice">
+                    <div class="radio-opt">                    
+                        <input type="radio" id="female" name="gender" value="female">
+                        <label for="">Female</label>
                     </div>
-                    <div class="list">
-                        <p>123</p>
-                        <p>2</p>
+                    <div class="radio-opt">
+                        <input type="radio" id="male" name="gender" value="male">
+                        <label for="">Male</label>
                     </div>
                 </div>
             </div>
-            <div class="content">
-                <div class="content-title">
-                    <h1>Patient</h1>
-                    <a href="./add-patient.html" class="icon-wrapper"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
-                        <path d="M10.5 20C10.5 20.3978 10.658 20.7794 10.9393 21.0607C11.2206 21.342 11.6022 21.5 12 21.5C12.3978 21.5 12.7794 21.342 13.0607 21.0607C13.342 20.7794 13.5 20.3978 13.5 20V13.5H20C20.3978 13.5 20.7794 13.342 21.0607 13.0607C21.342 12.7794 21.5 12.3978 21.5 12C21.5 11.6022 21.342 11.2206 21.0607 10.9393C20.7794 10.658 20.3978 10.5 20 10.5H13.5V4C13.5 3.60218 13.342 3.22064 13.0607 2.93934C12.7794 2.65804 12.3978 2.5 12 2.5C11.6022 2.5 11.2206 2.65804 10.9393 2.93934C10.658 3.22064 10.5 3.60218 10.5 4V10.5H4C3.60218 10.5 3.22064 10.658 2.93934 10.9393C2.65804 11.2206 2.5 11.6022 2.5 12C2.5 12.3978 2.65804 12.7794 2.93934 13.0607C3.22064 13.342 3.60218 13.5 4 13.5H10.5V20Z" fill="#FCFBF9"/>
-                        </svg>
-                    </a>
-                    <a href="" class="icon-wrapper">
-                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
-                            <path d="M9 6H20M9 12H20M9 18H20M5 6V6.01M5 12V12.01M5 18V18.01" stroke="#FCFBF9" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-                        </svg>
-                    </a>
-                </div>
-                <div class="content-list">
-                    <div class="list">
-                        <p>Total</p>
-                        <p>Recently added</p>
-                    </div>
-                    <div class="list">
-                        <p>10,536</p>
-                        <p>369</p>
-                    </div>
-                </div>
+            <div class="input">
+                <label for="">Disease<span>*</span></label>
+                <input type="text" placeholder="Enter patient's disease">
             </div>
-        </div>
+            <div class="input">
+                <label for="">Date of Birth<span>*</span></label>
+                <input type="date" placeholder="Enter doctor's phone number">
+            </div>
+            <div class="input">
+                <label for="">Age<span>*</span></label>
+                <input type="text" placeholder="Enter patient's age">
+            </div>
+            <div class="input">
+                <label for="">Phone Number<span>*</span></label>
+                <input type="text" placeholder="Enter patient's phone number">
+            </div>
+            <div class="input">
+                <label for="">Email<span>*</span></label>
+                <input type="email" placeholder="Enter patient's email">
+            </div>
+            <div class="input">
+                <label for="">Associated Doctor<span>*</span></label>
+                <input type="text" placeholder="Enter doctor's name">
+            </div>
+            <button class="generic-button">Add Patient</button>
+        </form>
     </section>
 
     <footer>
