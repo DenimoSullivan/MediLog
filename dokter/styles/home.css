@@ -4,8 +4,9 @@ body {
 }
 
 .container {
-    height: 70vh;
+    height: 100vh;
     background: url('../../common/assets/Background\ Image.png') no-repeat;
+    background-size: cover;
     position: relative;
 }
 
