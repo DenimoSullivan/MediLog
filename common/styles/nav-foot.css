@@ -26,7 +26,6 @@
 
 .nav-item{
     display: inline-block;
-    padding: 0.88rem 1.12rem;
     border-radius: 0.3125rem;
     border: 2px solid transparent;
 }
@@ -39,6 +38,8 @@
 }
 
 .nav-links a{
+    display: block;
+    padding: 0.88rem 1.12rem;
     color: var(--Putih);
     font-family: var(--body-font-family);
     font-size: 1.25rem;
