@@ -4,10 +4,11 @@ body {
 }
 
 .container {
-    height: 100vh;
+    height: 100%;
     background: url('../../common/assets/Background\ Image.png') no-repeat;
     background-size: cover;
     position: relative;
+    padding-top: 7.69rem;
 }
 
 .header h1 {
@@ -40,14 +41,8 @@ body {
     font-weight: var(--font-weight-medium);
 }
 
-.btn button{
-    display: inline-flex;
-    padding: 20px 40px;
-    justify-content: center;
-    align-items: center;
-    border-radius: 50px;
+.generic-button{
     border: none;
     font-size: 20px;
-    color: var(--Putih, #FCFBF9);
-    background: var(--Biru-Link);
+    cursor: pointer;;
 }
