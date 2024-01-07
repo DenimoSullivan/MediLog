@@ -65,6 +65,7 @@ body{
     background-color: var(--Biru-Link);
     padding: 1.25rem 2.5rem;
     border-radius: 3.125rem;
+    border: none;
 
     color: var(--Putih);
     text-align: center;
