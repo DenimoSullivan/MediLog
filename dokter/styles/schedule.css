@@ -1,0 +1,96 @@
+:root{
+    --Putih:                   #FCFBF9;
+    --Abu-Bright:              #EAEAEA;
+    --Red:                     #FF0000;
+    --Sky-Blue:                #C9E7F2;
+    --Biru-Abu-Muda:           #DFE3EE;
+    --Biru-Abu:                #91ACCB;
+    --Biru-Link:               #4B72C2;
+    --Biru-Tua:                #3B5998;
+    --Navhover:                #2F4678;
+    --hoverDark:               #273960;
+    --Black:                   #000000;
+    --Ijo-Tua:                 #96BCB4;
+    --Ijo-Muda:                #BBDCD3;
+    --Tosca-Muda:              #B2CED6;
+    --Tosca-Tua:               #9DBBC9;
+    --Biru-Ocean:              #8DC9E1;
+    --Biru-Muda:               #ACDBED;
+    --Abu:                     #7F7F7F;
+    --Abu-Muda:                #C5C5C5;
+    --hover:                   #76A3FF;
+
+    /*Font Family here*/
+
+    --body-font-family:        'Poppins', sans-serif;
+    --lato-family:             'Lato', sans-serif;
+    --inter-family:            'Inter', sans-serif;
+
+    --font-weight-thin:        100;
+    --font-weight-extralight:  200;
+    --font-weight-light:       300;
+    --font-weight-normal:      400;
+    --font-weight-medium:      500;
+    --font-weight-semibold:    600;
+    --font-weight-bold:        700;
+    --font-weight-extrabold:   800;
+    --font-weight-black:       900;
+}
+
+.schedule-container {
+    margin: 30px;
+    padding: 10px;
+    height: auto;
+
+    background-color: var(--Sky-Blue);
+    border: 2px solid var(--Sky-Blue);
+    border-radius: 20px;
+}
+
+.schedule-date1 {
+    width: 700px;
+    height: 370px;
+    
+    display: flex;
+    
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+}
+
+.schedule-date1-left {
+    width: 350px;
+    height: auto;
+    padding: 10px;
+
+    /* border: 2px solid red; */
+}
+
+.schedule-date1-left h1{
+    display: flex;
+    justify-content: center;
+
+    /* border: 2px solid red; */
+}
+
+.schedule-date1-left p{
+    display: flex;
+    justify-content: center;
+    font-size: 100px;
+
+    /* border: 2px solid red; */
+}
+
+.schedule-date1-right1 {
+    position: relative;
+    width: 100%;
+    height: 370px;
+    padding: 20px;
+
+    border-left: 2px solid black;
+}
+
+.img {
+    position: absolute;
+    top: 200px;
+    right: 100px;
+}
