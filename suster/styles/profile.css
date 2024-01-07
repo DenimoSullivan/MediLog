@@ -1,0 +1,119 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    margin: 1rem;
+    padding-top: 0.5rem;
+    display: flex;
+    gap: 3rem;
+    font-family: var(--lato-family);
+}
+
+.left-container {
+    padding-top: 4.5rem;
+    display: inline-flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+}
+
+.profile-title {
+    font-weight: var(--font-weight-bold);
+}
+
+.profile-img {
+    width: 200px;
+    height: 200px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    border-radius: 10px;
+    background: var(--Abu-Muda);
+}
+
+.change-profile-picture a {
+    font-weight: var(--font-weight-medium);
+    font-size: 16px;
+    color: var(--Biru-Link);
+}
+
+.change-profile-picture a:hover {
+    color: var(--Biru-Tua);
+}
+
+.right-container {
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 2rem;
+}
+
+.content-container {
+    width: 100%;
+}
+
+.header {
+    /* line */
+    border-bottom: 2px solid var(--Black);
+    margin-bottom: 1rem;
+    padding-bottom: 1rem;
+}
+
+.detail-container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 40px;
+}
+
+.detail {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 5px;
+}
+
+.title {
+    width: 100%;
+    font-weight: var(--font-weight-bold);
+}
+
+.content {
+    width: 100%;
+    height: 2.5rem;
+    padding: 0.5rem 0 0.5rem 1rem;
+
+    display: inline-flex;
+    align-items: center;
+    border-radius: 5px;
+    border: none;
+
+    font-size: medium;
+    color: var(--hoverDark);
+    background-color: var(--Sky-Blue);
+}
+
+.update {
+    margin-top: 1rem;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+.remind {
+    font-family: var(--inter-family);
+    font-size: 12px;
+}
+
+.generic-button{
+    border: none;
+    color: var(--Putih);
+    background: var(--Biru-Link);
+    cursor: pointer;;
+}
