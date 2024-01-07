@@ -21,11 +21,13 @@
     --Abu-Muda:                #C5C5C5;
     --hover:                   #76A3FF;
 
-    /*Font Family here*/
+    /* Font Family here */
 
     --body-font-family:        'Poppins', sans-serif;
     --lato-family:             'Lato', sans-serif;
     --inter-family:            'Inter', sans-serif;
+
+    /* Font Weights here */
 
     --font-weight-thin:        100;
     --font-weight-extralight:  200;
@@ -63,7 +65,7 @@ body{
     background-color: var(--Biru-Link);
     padding: 1.25rem 2.5rem;
     border-radius: 3.125rem;
-    /* border: transparent; */
+    border: none;
 
     color: var(--Putih);
     text-align: center;

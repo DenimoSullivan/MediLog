@@ -1,0 +1,53 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    height: 80.6%;
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    background: url('../../common/assets/Background\ Image.png') no-repeat;
+    background-size: cover;
+    position: relative;
+    padding-top: 9rem;
+}
+
+.header h1 {
+    margin: 1rem;
+    padding: 32px;
+    color: #000;
+    text-align: center;
+    font-family: var(--body-font-family);
+    font-size: 36px;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    gap: 57px;
+}
+
+.cont {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 24px;
+}
+
+.text {
+    color: #000;
+    text-align: center;
+    font-family: var(--body-font-family);
+    font-size: 24px;
+    font-weight: var(--font-weight-medium);
+}
+
+.generic-button{
+    border: none;
+    font-size: 20px;
+    color: var(--Putih);
+    background: var(--Biru-Link);
+    cursor: pointer;;
+}
