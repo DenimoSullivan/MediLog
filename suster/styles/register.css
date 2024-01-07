@@ -1,0 +1,159 @@
+html{
+    height: 64rem;
+}
+
+#register{
+    display: flex;
+    height: 100%;
+}
+
+.image{
+    flex: 3 0 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: var(--Biru-Abu);
+}
+
+.nurse{
+    text-align: center;
+}
+
+.nurse img{
+    width: 12.5rem;
+    height: 12.5rem;
+}
+
+.nurse h1{
+    font-family: var(--body-font-family);
+    font-size: 2.8125rem;
+    font-weight: var(--font-weight-bold);
+}
+
+.nurse h2{
+    width: 28.875rem;
+
+    font-family: var(--body-font-family);
+    font-size: 1.5rem;
+    font-weight: var(--font-weight-normal);
+}
+
+/* Register */
+
+.content{
+    flex: 5 0 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container{
+    height: fit-content;
+    width: 38.5rem;
+}
+
+.container h1{
+    text-align: center;
+    font-size: 2.8125rem;
+    font-weight: var(--font-weight-bold);
+}
+
+.container h2, .headings a{
+    color: #7F7F7F;
+    font-size: 1rem;
+    font-weight: var(--font-weight-normal);
+}
+
+.container h2 a{
+    color: var(--Biru-Link);
+}
+
+#register-form{
+    width: 100%;
+    margin-top: 0.75rem;
+}
+
+.text-label{
+    font-family: var(--body-font-family);
+    font-size: 1rem;
+    font-weight: var(--font-weight-normal);
+}
+
+.ast{
+    color: var(--Red);
+}
+
+.text-box{
+    width: 100%;
+    margin-bottom: 1.5rem;
+}
+
+.text-input{
+    display: block;
+    width: 100%;
+    height: 2.625rem;
+    margin-top: 0.5rem;
+    padding-left: 0.75rem;
+
+    border: transparent;
+    border-radius: 0.25rem;
+    background: var(--Sky-Blue);
+
+    font-family: var(--body-font-family);
+    font-size: 1rem;
+    font-weight: var(--font-weight-normal);
+}
+
+.text-input::placeholder{
+    color: var(--Biru-Abu);
+}
+
+.special{
+    display: flex;
+    gap: 1.5rem;
+    justify-content: space-between;
+}
+
+.special-2{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.special-2 label{
+    display: inline;
+    color: #7F7F7F;
+}
+
+.special-2 input{
+    width: 1.5rem;
+    height: 1.5rem;
+    border-radius: 0.25rem;
+    border: 1px solid #3D3D3D;
+    background: var(--Putih);
+}
+
+.special-2 span{
+    color: #4B72C2;
+}
+
+.generic-button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0.75rem 4.345rem;
+    margin: 1.5rem auto 0rem;
+    
+    border-radius: 0.25rem;
+    border: transparent;
+    cursor: pointer;
+
+    font-family: var(--body-font-family);
+    font-size: 1rem;
+}
+
+#sign-in{
+    text-align: center;
+    margin-top: 8.31rem;
+    font-size: 1.5625rem;
+}

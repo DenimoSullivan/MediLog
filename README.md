@@ -10,9 +10,7 @@ Anggota:
 5. 2540134741 - MATHEW IMANUEL SUPRIYANTO SIN
 
 ## Detail
-### Branch Details
-main -> main branch, everything here is already fixed
-
+### File 
 common -> consists of common pages regardless of role
 
 admin -> consists of pages exclusive to admin
