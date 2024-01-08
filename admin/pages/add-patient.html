@@ -12,6 +12,7 @@
     <link rel="stylesheet" href="../../common/styles/normalize.css">
     <link rel="stylesheet" href="../../common/styles/nav-foot.css">
     <link rel="stylesheet" href="../styles/add-patient.css">
+    <script src="../scripts/radio.js" defer></script>
 </head>
 <body>
     <nav class="navbar nav-admin">
@@ -48,15 +49,15 @@
             <div class="input radio">
                 <label for="">Gender<span>*</span></label>
                 <div class="radio-choice">
-                    <div class="radio-opt">                    
+                    <label class="radio-opt" for="female">
                         <input type="radio" id="female" name="gender" value="female">
-                        <label for="">Female</label>
-                    </div>
-                    <div class="radio-opt">
+                        Female
+                    </label>
+                    <label class="radio-opt" for="male">
                         <input type="radio" id="male" name="gender" value="male">
-                        <label for="">Male</label>
-                    </div>
-                </div>
+                        Male
+                    </label>
+            </div>
             </div>
             <div class="input">
                 <label for="">Disease<span>*</span></label>

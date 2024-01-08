@@ -53,29 +53,59 @@ form{
     width: 100%;
 }
 
-.radio > label{
-    display: block;
-}
-
 .radio-choice{
     display: flex;
+    gap: 1.5rem 11.125rem;
+    flex-wrap: wrap;
 }
 
 .radio-opt{
-    flex: 1;
     display: flex;
     align-items: center;
+    gap: 1rem;
+
+    color: var(--Biru-Abu);
+    font-family: var(--body-font-family);
+    font-size: 1.25rem;
+}
+
+.radio-opt:hover{
+    cursor: pointer;
+    color: var(--Black);
 }
 
 .radio-opt input{
+    padding: 0;
     width: 1.5625rem;
     height: 1.5625rem;
-    margin-right: 1rem;
+    
+    appearance: none;
+    background-color: #FFF;
+    
+    font: inherit;
+    color: currentColor;
+    border: 0.15rem solid currentColor;
+    border-radius: 50%;
+
+    display: grid;
+    place-content: center;
 }
 
-.radio-opt label{
-    font-family: var(--body-font-family);
-    font-size: 1.25rem;
+.radio-opt input::before{
+    content: "";
+    width: 0.8125rem;
+    height: 0.8125rem;
+    border-radius: 50%;
+    transform: scale(0);
+    box-shadow: inset 1rem 1rem var(--Black);
+}
+
+.radio-opt input:checked::before{
+    transform: scale(1);
+}
+
+.radio-opt input:checked{
+    border-color: var(--Black);
 }
 
 .generic-button{
