@@ -39,15 +39,11 @@ section{
     gap: 1rem;
 }
 
-.no, .age{
+.no, .age, .action{
     flex: 1;
 }
 
-.patient-name, .disease, .asc-doctor{
-    flex: 3;
-}
-
-.action{
+.patient-name, .last-visit, .disease{
     flex: 2;
 }
 
@@ -60,8 +56,6 @@ section{
     justify-content: center;
     align-items: center;
     margin-right: 1rem;
-    border: none;
-    cursor: pointer;
 }
 
 footer{
