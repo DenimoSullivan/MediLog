@@ -11,7 +11,7 @@ Anggota:
 
 ## Detail
 ### File 
-common -> consists of common pages regardless of role
+common -> consists of pages before user log in
 
 admin -> consists of pages exclusive to admin
 
