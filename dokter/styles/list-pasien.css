@@ -1,9 +1,9 @@
-
+/* 
 body{
     display: flex;
     flex-direction: column;
     min-height: 100vh;
-}
+} */
 
 section{
     padding: 0 2.81rem;
@@ -57,6 +57,6 @@ section{
     align-items: center;
 }
 
-footer{
+/* footer{
     margin-top: auto;
-}
+} */
