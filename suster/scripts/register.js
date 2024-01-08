@@ -35,6 +35,12 @@ document.getElementById('register-form').addEventListener('submit', function(eve
     // Validate Passwords
     let password = document.getElementById('password').value;
     let confirmPassword = document.getElementById('confirmpass').value;
+
+    if(!password){
+        isValid = false;
+        messages.push('Please enter a password.');
+    }
+
     if (password !== confirmPassword) {
         isValid = false;
         messages.push('Passwords do not match.');
