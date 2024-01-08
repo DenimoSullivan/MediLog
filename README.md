@@ -45,3 +45,7 @@ Suster bisa melakukan:
 - view list of all patients
 - edit medical record of all patients, which is date of appointment, blood pressure, and weight (data regarding appointment)
 - edit user profile + change password
+
+Resources:
+
+- Background Image: [Image by mamewmy on Freepik](https://www.freepik.com/free-vector/doctor-tools-medical-elements-pattern-cartoon-hand-drawn-cartoon-art-illustration_16951152.htm)
