@@ -41,13 +41,13 @@
 
     <section>
         <h1 class="title">Add New Patient</h1>
-        <form action="">
+        <form action="" id="form-patient">
             <div class="input">
-                <label for="">Full Name<span>*</span></label>
-                <input type="text" placeholder="Enter patient's full name">
+                <label for="name">Full Name<span>*</span></label>
+                <input id="name" name="name" type="text" placeholder="Enter patient's full name">
             </div>
             <div class="input radio">
-                <label for="">Gender<span>*</span></label>
+                <label for="radio-choice">Gender<span>*</span></label>
                 <div class="radio-choice">
                     <label class="radio-opt" for="female">
                         <input type="radio" id="female" name="gender" value="female">
@@ -60,30 +60,30 @@
             </div>
             </div>
             <div class="input">
-                <label for="">Disease<span>*</span></label>
-                <input type="text" placeholder="Enter patient's disease">
+                <label for="disease">Disease<span>*</span></label>
+                <input id="disease" name="disease" type="text" placeholder="Enter patient's disease">
             </div>
             <div class="input">
-                <label for="">Date of Birth<span>*</span></label>
-                <input type="date" placeholder="Enter doctor's phone number">
+                <label for="dob">Date of Birth<span>*</span></label>
+                <input id="dob" name="dob" type="date">
             </div>
             <div class="input">
-                <label for="">Age<span>*</span></label>
-                <input type="text" placeholder="Enter patient's age">
+                <label for="age">Age<span>*</span></label>
+                <input id="age" name="age" type="text" placeholder="Enter patient's age">
             </div>
             <div class="input">
-                <label for="">Phone Number<span>*</span></label>
-                <input type="text" placeholder="Enter patient's phone number">
+                <label for="phone">Phone Number<span>*</span></label>
+                <input id="phone" name="phone" type="text" placeholder="Enter patient's phone number">
             </div>
             <div class="input">
-                <label for="">Email<span>*</span></label>
-                <input type="email" placeholder="Enter patient's email">
+                <label for="email">Email<span>*</span></label>
+                <input id="email" name="email" type="email" placeholder="Enter patient's email">
             </div>
             <div class="input">
-                <label for="">Associated Doctor<span>*</span></label>
-                <input type="text" placeholder="Enter doctor's name">
+                <label for="asc-doctor">Associated Doctor<span>*</span></label>
+                <input id="asc-doctor" name="asc-doctor" type="text" placeholder="Enter doctor's name">
             </div>
-            <button class="generic-button">Add Patient</button>
+            <button class="generic-button" type="submit">Add Patient</button>
         </form>
     </section>
 
@@ -91,5 +91,7 @@
         <p class="footer-lines">&copy; MediLog 2023 - All rights reserved. This includes all content, text, images, and designs on the MediLog website. </p>
         <p class="footer-lines">Unauthorized use or reproduction is prohibited by law.</p>
     </footer>
+
+    <script src="../scripts/add-patient.js"></script>
 </body>
 </html>
