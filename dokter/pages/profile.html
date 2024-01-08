@@ -16,7 +16,7 @@
     <link rel="stylesheet" href="../styles/profile.css">
 
     <!-- SCRIPT -->
-    <script src="../script/profile.js" defer></script>
+    <script src="../scripts/profile.js" defer></script>
 </head>
 <body>
     <!-- NAVBAR -->
@@ -26,34 +26,18 @@
         </a>
         <input type="text" name="search" class="search-bar" id="search-input" placeholder="Search...">
         <ul class="nav-links" id="nav-links">
-            <li class="nav-item">
-                <a href="./home.html">Home</a>
-            </li>
-            <li class="nav-item hidden">
-                <a href="#about-us">About</a>
-            </li>
-            <li class="nav-item hidden">
-                <a href="#service">Our Services</a>
-            </li>
-            <li class="nav-item hidden">
-                <a href="#contact">Contact Us</a>
-            </li>
+            <li class="nav-item"><a href="./home.html">Home</a></li>
+            <li class="nav-item hidden"><a href="#about-us">About</a></li>
+            <li class="nav-item hidden"><a href="#service">Our Services</a></li>
+            <li class="nav-item hidden"><a href="#contact">Contact Us</a></li>
             <li class="nav-item special-index hidden" id="login" hidden>
                 <a href="../../common/pages/login.html">Login</a>
             </li>
-            <li class="nav-item special-index hidden" id="register" hidden>
-                <a href="../../common/pages/register.html">Register</a>
-            </li>
+            <li class="nav-item special-index hidden" id="register" hidden><a href="../../common/pages/register.html">Register</a></li>
             <!-- Extra Navigation for Other Roles -->
-            <li class="nav-item">
-                <a href="./list-pasien.html">Patients</a>
-            </li>
-            <li class="nav-item">
-                <a href="./schedule.html">Schedule</a>
-            </li>
-            <li class="nav-item" id="logout">
-                <a href="../../common/pages/index.html">Logout</a>
-            </li>
+            <li class="nav-item"><a href="./list-pasien.html">Patients</a></li>
+            <li class="nav-item"><a href="./schedule.html">Schedule</a></li>
+            <li class="nav-item" id="logout"><a href="../../common/pages/index.html">Logout</a></li>
             <li class="profile active">
                 <a href="./profile.html">
                     <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 30 30" fill="none">
@@ -67,9 +51,7 @@
     <!-- CONTENTS -->
     <div class="container">
         <div class="left-container">
-            <div class="profile-title">
-                <p>Profile Picture</p>
-            </div>
+            <div class="profile-title"><p>Profile Picture</p></div>
 
             <div class="profile-img">
                 <svg xmlns="http://www.w3.org/2000/svg" width="150" height="150" viewBox="0 0 150 150" fill="none">
@@ -78,90 +60,62 @@
                 </svg>
             </div>
             
-            <div class="change-profile-picture">
-                <a href="">Change Profile Picture</a>
-            </div>
+            <div class="change-profile-picture"><a href="">Change Profile Picture</a></div>
         </div>
 
         <div class="right-container">
             <div class="content-container">
-                <div class="header">
-                    <h1>Profile</h1>
-                </div>
+                <div class="header"><h1>Profile</h1></div>
 
                 <div class="detail-container">
                     <div class="detail">
-                        <div class="title">
-                            <p>Name</p>
-                        </div>
+                        <div class="title"><p>Name</p></div>
                         <input type="text" class="content" name="name" id="name" value="Dr. Olivia Adams" readonly>
                     </div>
                     <div class="detail">
-                        <div class="title">
-                            <p>Specialization</p>
-                        </div>
+                        <div class="title"><p>Specialization</p></div>
                         <input type="text" class="content" name="special" id="special" value="Cardiologist" readonly>
                     </div>
                     <div class="detail">
-                        <div class="title">
-                            <p>Gender</p>
-                        </div>
+                        <div class="title"><p>Gender</p></div>
                         <input type="text" class="content" name="gender" id="gender" value="Female" readonly>
                     </div>
                     <div class="detail">
-                        <div class="title">
-                            <p>Username</p>
-                        </div>
+                        <div class="title"><p>Username</p></div>
                         <input type="text" class="content" name="uname" id="uname" value="olivia_adams" readonly>
                     </div>
                     <div class="detail">
-                        <div class="title">
-                            <p>Phone Number</p>
-                        </div>
+                        <div class="title"><p>Phone Number</p></div>
                         <input type="text" class="content" name="phonenumber" id="phonenumber" value="0811-123-4567" readonly>
                     </div>
                     <div class="detail">
-                        <div class="title">
-                            <p>Email</p>
-                        </div>
+                        <div class="title"><p>Email</p></div>
                         <input type="email" class="content" name="email" id="email" value="olivia.adams@medilog.com" readonly>
                     </div>
                 </div>
             </div>
 
             <div class="content-container">
-                <div class="header">
-                    <h1>Password</h1>
-                </div>
+                <div class="header"><h1>Password</h1></div>
 
                 <div class="detail-container">
                     <div class="detail">
-                        <div class="title">
-                            <p>Old Password</p>
-                        </div>
+                        <div class="title"><p>Old Password</p></div>
                         <input type="password" class="content" name="pwd" id="pwd">
                     </div>
                     <div class="detail">
-                        <div class="title">
-                            <p>New Password</p>
-                        </div>
+                        <div class="title"><p>New Password</p></div>
                         <input type="password" class="content" name="pwd" id="pwd">
                     </div>
                     <div class="detail">
-                        <div class="title">
-                            <p>Confirm New Password</p>
-                        </div>
+                        <div class="title"><p>Confirm New Password</p></div>
                         <input type="password" class="content" name="pwd" id="pwd">
                     </div>
                 </div>
 
                 <div class="update">
-                    <div class="remind">
-                        <p>Make sure it's at least 8 characters including a number, an uppercase letter and a lowercase letter.</p>
-                    </div>
-                    <div class="btn">
-                        <button class="generic-button" type="button">Update Password</button>
-                    </div>
+                    <div class="remind"><p>Make sure it's at least 8 characters including a number, an uppercase letter and a lowercase letter.</p></div>
+                    <div class="btn"><button class="generic-button" type="button">Update Password</button></div>
                 </div>
             </div>
         </div>
